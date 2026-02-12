@@ -1,0 +1,5 @@
+package com.basics_hibernate;
+
+public class ProductDaoTest {
+
+}

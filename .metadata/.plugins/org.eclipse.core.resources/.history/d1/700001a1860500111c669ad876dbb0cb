@@ -1,0 +1,16 @@
+package com.connectdatabase;
+
+public class StepsTOConnectDataBase {
+	public static void main(String [] args) {
+		//load the driver class
+		
+		try {
+			Class.forName("org.postgresql.Driver");//this is used to load the 3rd party jar file present in maven dependencies 
+			System.out.println("class loadded");
+		} catch (ClassNotFoundException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}//this is used to load the 3rd party jar file present in maven dependencies 
+	}
+
+}

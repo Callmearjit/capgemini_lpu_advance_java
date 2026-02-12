@@ -1,0 +1,25 @@
+package com.product;
+import jakarta.persistence.EntityManager;
+import jakarta.persistence.EntityManagerFactory;
+import jakarta.persistence.EntityTransaction;
+import jakarta.persistence.Persistence;
+public class Main {
+
+		public static void main(String[] args) {
+			EntityManagerFactory emf = Persistence.createEntityManagerFactory("postgres");
+			EntityManager em = emf.createEntityManager();
+		
+			EntityTransaction et = em.getTransaction();
+			
+			ProductDao pd = new ProductDao();
+			
+			//pd.addProducts(et, em);
+//			pd.updateProducts(et, em);
+//			pd.deleteProducts(et, em);
+			pd.findById(et, em);
+//			pd.findAllProduct(et, em);
+			
+			
+		
+	}
+}

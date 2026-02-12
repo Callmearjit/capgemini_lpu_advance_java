@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="ProgrameTest" project="Junit_Testing" tests="7" started="7" failures="1" errors="0" ignored="0">
+  <testsuite name="com.learnjdbc.ProgrameTest" time="0.057" displayname="ProgrameTest" uniqueid="[engine:junit-jupiter]/[class:com.learnjdbc.ProgrameTest]">
+    <testsuite name="addTest(com.learnjdbc.ProgrameTest)" time="0.042" displayname="addTest(int, int, int)" parameters="int,int,int" uniqueid="[engine:junit-jupiter]/[class:com.learnjdbc.ProgrameTest]/[test-template:addTest(int, int, int)]">
+      <testcase name="addTest" classname="com.learnjdbc.ProgrameTest" time="0.042" dynamicTest="true" displayname="[1] 1, 2, 3" parameters="int,int,int" uniqueid="[engine:junit-jupiter]/[class:com.learnjdbc.ProgrameTest]/[test-template:addTest(int, int, int)]/[test-template-invocation:#1]"/>
+      <testcase name="addTest" classname="com.learnjdbc.ProgrameTest" time="0.0" dynamicTest="true" displayname="[2] 5, 5, 10" parameters="int,int,int" uniqueid="[engine:junit-jupiter]/[class:com.learnjdbc.ProgrameTest]/[test-template:addTest(int, int, int)]/[test-template-invocation:#2]"/>
+      <testcase name="addTest" classname="com.learnjdbc.ProgrameTest" time="0.001" dynamicTest="true" displayname="[3] 5, 3, 8" parameters="int,int,int" uniqueid="[engine:junit-jupiter]/[class:com.learnjdbc.ProgrameTest]/[test-template:addTest(int, int, int)]/[test-template-invocation:#3]"/>
+    </testsuite>
+    <testsuite name="isPalindromeTest(com.learnjdbc.ProgrameTest)" time="0.002" displayname="isPalindromeTest(String)" parameters="java.lang.String" uniqueid="[engine:junit-jupiter]/[class:com.learnjdbc.ProgrameTest]/[test-template:isPalindromeTest(java.lang.String)]">
+      <testcase name="isPalindromeTest" classname="com.learnjdbc.ProgrameTest" time="0.002" dynamicTest="true" displayname="[1] tenet" parameters="java.lang.String" uniqueid="[engine:junit-jupiter]/[class:com.learnjdbc.ProgrameTest]/[test-template:isPalindromeTest(java.lang.String)]/[test-template-invocation:#1]"/>
+      <testcase name="isPalindromeTest" classname="com.learnjdbc.ProgrameTest" time="0.001" dynamicTest="true" displayname="[2] radar" parameters="java.lang.String" uniqueid="[engine:junit-jupiter]/[class:com.learnjdbc.ProgrameTest]/[test-template:isPalindromeTest(java.lang.String)]/[test-template-invocation:#2]"/>
+      <testcase name="isPalindromeTest" classname="com.learnjdbc.ProgrameTest" time="0.0" dynamicTest="true" displayname="[3] aba" parameters="java.lang.String" uniqueid="[engine:junit-jupiter]/[class:com.learnjdbc.ProgrameTest]/[test-template:isPalindromeTest(java.lang.String)]/[test-template-invocation:#3]"/>
+      <testcase name="isPalindromeTest" classname="com.learnjdbc.ProgrameTest" time="0.01" dynamicTest="true" displayname="[4] abcd" parameters="java.lang.String" uniqueid="[engine:junit-jupiter]/[class:com.learnjdbc.ProgrameTest]/[test-template:isPalindromeTest(java.lang.String)]/[test-template-invocation:#4]">
+        <failure>java.lang.AssertionError&#13;
+	at org.junit.Assert.fail(Assert.java:87)&#13;
+	at org.junit.Assert.assertTrue(Assert.java:42)&#13;
+	at org.junit.Assert.assertTrue(Assert.java:53)&#13;
+	at com.learnjdbc.ProgrameTest.isPalindromeTest(ProgrameTest.java:17)&#13;
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)&#13;
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:184)&#13;
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:212)&#13;
+	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:194)&#13;
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:212)&#13;
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:184)&#13;
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:212)&#13;
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:184)&#13;
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:184)&#13;
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:212)&#13;
+	at java.base/java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:1024)&#13;
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:556)&#13;
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:546)&#13;
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:151)&#13;
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:174)&#13;
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:265)&#13;
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:611)&#13;
+	at java.base/java.util.stream.ReferencePipeline$7$1.accept(ReferencePipeline.java:291)&#13;
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1709)&#13;
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:556)&#13;
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:546)&#13;
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:151)&#13;
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:174)&#13;
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:265)&#13;
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:611)&#13;
+	at java.base/java.util.stream.ReferencePipeline$7$1.accept(ReferencePipeline.java:291)&#13;
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:212)&#13;
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:212)&#13;
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:212)&#13;
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1709)&#13;
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:556)&#13;
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:546)&#13;
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:151)&#13;
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:174)&#13;
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:265)&#13;
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:611)&#13;
+	at java.base/java.util.stream.ReferencePipeline$7$1.accept(ReferencePipeline.java:291)&#13;
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1709)&#13;
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:556)&#13;
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:546)&#13;
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:151)&#13;
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:174)&#13;
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:265)&#13;
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:611)&#13;
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)&#13;
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)&#13;
+&#13;
+</failure>
+      </testcase>
+    </testsuite>
+  </testsuite>
+</testrun>
