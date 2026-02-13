@@ -5,10 +5,10 @@ public class Main {
 		ProductDao dao=new ProductDao();
 		
 		Product p=new Product();
-		p.setId(2);
-		p.setName("Pen");
-		p.setPrice(10);
-		p.setQuantity(10);
+		p.setId(5);
+		p.setName("book");
+		p.setPrice(20);
+		p.setQuantity(30);
 		
 		dao.insertProduct(p);
 		

@@ -43,14 +43,17 @@
 	</section>
 	<section name="MavenProjectWizardArtifactPage">
 		<list key="groupId">
-			<item value="basics_hibernate"/>
 			<item value="com.prac"/>
+			<item value="Junit_Testing"/>
+			<item value="basics_hibernate"/>
 			<item value="com.capgemini"/>
 			<item value="com.capg"/>
 		</list>
 		<list key="name">
 		</list>
 		<list key="artifactId">
+			<item value="oneToOne_Mapping"/>
+			<item value="Junit_Testing"/>
 			<item value="basics_hibernate"/>
 			<item value="Hibernate_basics"/>
 			<item value="learnjdbc"/>

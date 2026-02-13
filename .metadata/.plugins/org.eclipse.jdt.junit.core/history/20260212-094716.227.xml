@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><testrun name="ProgrameTest" project="Junit_Testing" tests="3" started="3" failures="0" errors="0" ignored="0">
-  <testsuite name="com.learnjdbc.ProgrameTest" time="0.012" displayname="ProgrameTest" uniqueid="[engine:junit-jupiter]/[class:com.learnjdbc.ProgrameTest]">
-    <testsuite name="isPalindromeTest(com.learnjdbc.ProgrameTest)" time="0.012" displayname="isPalindromeTest(String)" parameters="java.lang.String" uniqueid="[engine:junit-jupiter]/[class:com.learnjdbc.ProgrameTest]/[test-template:isPalindromeTest(java.lang.String)]">
-      <testcase name="isPalindromeTest" classname="com.learnjdbc.ProgrameTest" time="0.012" dynamicTest="true" displayname="[1] tenet" parameters="java.lang.String" uniqueid="[engine:junit-jupiter]/[class:com.learnjdbc.ProgrameTest]/[test-template:isPalindromeTest(java.lang.String)]/[test-template-invocation:#1]"/>
-      <testcase name="isPalindromeTest" classname="com.learnjdbc.ProgrameTest" time="0.001" dynamicTest="true" displayname="[2] radar" parameters="java.lang.String" uniqueid="[engine:junit-jupiter]/[class:com.learnjdbc.ProgrameTest]/[test-template:isPalindromeTest(java.lang.String)]/[test-template-invocation:#2]"/>
-      <testcase name="isPalindromeTest" classname="com.learnjdbc.ProgrameTest" time="0.001" dynamicTest="true" displayname="[3] aba" parameters="java.lang.String" uniqueid="[engine:junit-jupiter]/[class:com.learnjdbc.ProgrameTest]/[test-template:isPalindromeTest(java.lang.String)]/[test-template-invocation:#3]"/>
-    </testsuite>
-  </testsuite>
-</testrun>
