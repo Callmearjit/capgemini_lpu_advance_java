@@ -34,5 +34,10 @@
     <scope>test</scope>
 </dependency>
 
-    </dependencies>
+    <dependency>
+    	<groupId>com.practice</groupId>
+    	<artifactId>Mockito_Practice</artifactId>
+    	<version>0.0.1-SNAPSHOT</version>
+    </dependency>
+   </dependencies>
 </project>

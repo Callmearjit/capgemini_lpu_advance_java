@@ -15,7 +15,7 @@ public class HospitalService {
 		patient.setMedicalRecord(medicalrecord);
 	}
 	
-	public void addMultipleAppointmentsToDoctor(Long d_id, List<Appointment> list) {
+	public void addMultipleAppointmentsToDoctor(int d_id, List<Appointment> list) {
 		Doctor d = dd.findDoctor(d_id);
 	    if(d != null){
 
@@ -51,7 +51,7 @@ public class HospitalService {
 		}
 	}
 	
-	public Doctor fetchDoctorsWithAppointments(Long doctorId) {
+	public Doctor fetchDoctorsWithAppointments(int doctorId) {
 		Doctor d = dd.findDoctor(doctorId);
 		if(d != null) {
 			return d;

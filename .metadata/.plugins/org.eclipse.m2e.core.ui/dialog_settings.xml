@@ -2,6 +2,14 @@
 <section name="Workbench">
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
+			<item value="D:\advance-eclipse-workspace\14Th_FebCase_Study2_Hospital_Appointment_Syatem\src\main\java\com\Assignment\Patient.java"/>
+			<item value="D:\advance-eclipse-workspace\One_To_One_Bidirectional_Mapping\src\main\java\com\prac\Main.java"/>
+			<item value="D:\advance-eclipse-workspace\ManyToMany\src\main\java\com\Many\Main.java"/>
+			<item value="D:\advance-eclipse-workspace\Many_To_One\pom.xml"/>
+			<item value="D:\advance-eclipse-workspace\13ThFeb_Assingment_Mockito"/>
+			<item value="D:\advance-eclipse-workspace\Mockito\src\test\java\userServiceTest.java"/>
+			<item value="D:\advance-eclipse-workspace\learnjdbc"/>
+			<item value="D:\advance-eclipse-workspace\oneToOne_Mapping\src\main\java\com\oneToOne_Mapping\Car.java"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
@@ -43,21 +51,10 @@
 	</section>
 	<section name="MavenProjectWizardArtifactPage">
 		<list key="groupId">
-			<item value="com.prac"/>
-			<item value="Junit_Testing"/>
-			<item value="basics_hibernate"/>
-			<item value="com.capgemini"/>
-			<item value="com.capg"/>
 		</list>
 		<list key="name">
 		</list>
 		<list key="artifactId">
-			<item value="oneToOne_Mapping"/>
-			<item value="Junit_Testing"/>
-			<item value="basics_hibernate"/>
-			<item value="Hibernate_basics"/>
-			<item value="learnjdbc"/>
-			<item value="basicsOfJdbc"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
@@ -74,5 +71,17 @@
 	<section name="org.eclipse.m2e.core.pom.overview">
 	</section>
 	<section name="org.eclipse.m2e.core.pom.dependencies">
+	</section>
+	<section name="MavenModuleWizardParentPage">
+		<list key="moduleName">
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
 	</section>
 </section>
