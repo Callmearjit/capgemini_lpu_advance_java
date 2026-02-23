@@ -2,11 +2,12 @@
 <section name="Workbench">
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
+			<item value="D:\advance-eclipse-workspace\SPRING_basics_of_spring\src\main\resources\config.xml"/>
+			<item value="D:\advance-eclipse-workspace\13ThFeb_Assingment_Mockito"/>
 			<item value="D:\advance-eclipse-workspace\14Th_FebCase_Study2_Hospital_Appointment_Syatem\src\main\java\com\Assignment\Patient.java"/>
 			<item value="D:\advance-eclipse-workspace\One_To_One_Bidirectional_Mapping\src\main\java\com\prac\Main.java"/>
 			<item value="D:\advance-eclipse-workspace\ManyToMany\src\main\java\com\Many\Main.java"/>
 			<item value="D:\advance-eclipse-workspace\Many_To_One\pom.xml"/>
-			<item value="D:\advance-eclipse-workspace\13ThFeb_Assingment_Mockito"/>
 			<item value="D:\advance-eclipse-workspace\Mockito\src\test\java\userServiceTest.java"/>
 			<item value="D:\advance-eclipse-workspace\learnjdbc"/>
 			<item value="D:\advance-eclipse-workspace\oneToOne_Mapping\src\main\java\com\oneToOne_Mapping\Car.java"/>
@@ -51,10 +52,22 @@
 	</section>
 	<section name="MavenProjectWizardArtifactPage">
 		<list key="groupId">
+			<item value="com.spring"/>
+			<item value="com.practice"/>
+			<item value="com.Assignment"/>
+			<item value="com.assignment"/>
+			<item value="com.prac"/>
 		</list>
 		<list key="name">
 		</list>
 		<list key="artifactId">
+			<item value="SPRING_classLevel_Configuration"/>
+			<item value="SPRING_basics_of_spring"/>
+			<item value="2ndLEVEL_Cache"/>
+			<item value="16ThFEB_Assignment"/>
+			<item value="14Th_Feb_CaseStudy_1"/>
+			<item value="CRM_Sales_Management_System"/>
+			<item value="ManyToMany_Bidirectional"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
