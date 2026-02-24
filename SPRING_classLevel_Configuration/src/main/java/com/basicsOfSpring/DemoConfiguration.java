@@ -1,5 +1,7 @@
 package com.basicsOfSpring;
 
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Scanner;
 
 import org.springframework.context.annotation.Bean;
@@ -16,6 +18,11 @@ public class DemoConfiguration {
 	public Scanner getScanner() {
 		return new Scanner(System.in);
 		
+	}
+	@Bean
+	public List<String> getabc(){
+		//return new ArrayList<String>();
+		return List.of("Miller","brevis","Holder");
 	}
 
 	

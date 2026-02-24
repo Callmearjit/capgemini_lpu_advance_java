@@ -8,7 +8,7 @@ import org.springframework.stereotype.Component;
 @Component
 public class Person {
 	//Dependency Injection
-	@Autowired
+	//@Autowired
 	private Mobile mobile;//null, ref null
 	
 	
@@ -27,8 +27,15 @@ public class Person {
 	public Mobile getMobile() {
 		return mobile;
 	}
+	//@Autowired
 	public void setMobile(Mobile mobile) {
 		this.mobile=mobile;
+	}
+	
+	//in constructor injection no need to write @Autowired
+	public Person(Mobile mobile) {
+		
+		this.mobile = mobile;
 	}
 
 }

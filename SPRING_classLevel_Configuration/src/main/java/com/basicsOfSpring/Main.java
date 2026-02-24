@@ -1,8 +1,9 @@
 package com.basicsOfSpring;
 
+import java.util.List;
+
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
-import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 public class Main {
 	public static void main(String[] args) {
@@ -20,6 +21,13 @@ public class Main {
 	System.out.println(ioc.getBean(Mobile.class));
 	
 	System.out.println(person.getScan());
+	
+	List<String> list = ioc.getBean(List.class);
+//	list.add("naman");
+//	list.add("aknfb");
+	
+	
+	System.out.println(list);
 	
 	}
 	

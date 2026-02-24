@@ -1,5 +1,8 @@
 package com.basicsOfSpring;
 
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Component;
 
@@ -12,6 +15,16 @@ public class Employee {
 	private String name;
 	@Value("199969")
 	private double salary;
+	
+	
+	@Autowired
+	private List<String> list;
+	public List<String> getList() {
+		return list;
+	}
+	public void setList(List<String> list) {
+		this.list = list;
+	}
 	Employee(){
 		
 	}
