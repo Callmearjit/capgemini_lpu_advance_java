@@ -55,14 +55,10 @@
 	</section>
 	<section name="MavenProjectWizardArtifactPage">
 		<list key="groupId">
-			<item value="com.assign"/>
-			<item value="com.Payment"/>
 		</list>
 		<list key="name">
 		</list>
 		<list key="artifactId">
-			<item value="Online_Food_Delivery_System"/>
-			<item value="25th_feb_Smart_Payment_Processing_System"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
@@ -94,6 +90,10 @@
 	</section>
 	<section name="MavenProjectImportWizardPage">
 		<list key="rootDirectory">
+			<item value="D:\advance-eclipse-workspace\28thFeb_Library_Management_System_Spring Boot"/>
+			<item value="D:\advance-eclipse-workspace\sprinngMvcBoot"/>
+			<item value="D:\advance-eclipse-workspace\27thFeb_Product_Category\27thFeb_Product_Category"/>
+			<item value="D:\advance-eclipse-workspace\springBootBasics"/>
 			<item value="D:\Downloads\springBootBasics"/>
 			<item value="D:\advance-eclipse-workspace\springmvc"/>
 		</list>
