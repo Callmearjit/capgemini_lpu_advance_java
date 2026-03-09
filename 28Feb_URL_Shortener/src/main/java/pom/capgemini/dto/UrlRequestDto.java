@@ -22,5 +22,7 @@ public class UrlRequestDto {
     @Size(min = 6, max = 8, message = "Custom alias must be between 6 and 8 characters")
     @Schema(description = "Optional custom alias for the short code (6-8 alphanumeric characters)", example = "myAlias1")
     private String customAlias;
+
+	
 }
 

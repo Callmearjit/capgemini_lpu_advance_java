@@ -90,13 +90,21 @@
 	</section>
 	<section name="MavenProjectImportWizardPage">
 		<list key="rootDirectory">
+			<item value="D:\advance-eclipse-workspace\7thMarch_city_library"/>
+			<item value="D:\advance-eclipse-workspace\6th_MAR_Event_Announcement_System"/>
+			<item value="D:\advance-eclipse-workspace\springsecuritydbconnection"/>
+			<item value="D:\advance-eclipse-workspace\SPringFrontBackendConnection"/>
+			<item value="D:\advance-eclipse-workspace\SpringSecurityDbConnection"/>
+			<item value="D:\advance-eclipse-workspace\SpringSecuritydemo"/>
+			<item value="D:\advance-eclipse-workspace\springBootMVC1"/>
+			<item value="D:\advance-eclipse-workspace\basiccachepractice"/>
+			<item value="D:\advance-eclipse-workspace\cachePracticeSpringBoot"/>
+			<item value="D:\advance-eclipse-workspace\UserAdmin_CaseStduy_3rdMarch"/>
+			<item value="D:\advance-eclipse-workspace\springcasestudy3"/>
 			<item value="D:\advance-eclipse-workspace\28_Feb_URL_Shortener_Service"/>
 			<item value="D:\advance-eclipse-workspace\28thFeb_Library_Management_System_Spring Boot"/>
 			<item value="D:\advance-eclipse-workspace\sprinngMvcBoot"/>
 			<item value="D:\advance-eclipse-workspace\27thFeb_Product_Category\27thFeb_Product_Category"/>
-			<item value="D:\advance-eclipse-workspace\springBootBasics"/>
-			<item value="D:\Downloads\springBootBasics"/>
-			<item value="D:\advance-eclipse-workspace\springmvc"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>

@@ -1,8 +1,14 @@
 <html>
-	<head>Login User</head>
-	<body>
-	<form>
-	
-	</form action="logincheck" method="post">
-	</body>
+<head></head>
+
+<body>
+<form action="logincheck" method="get">
+Email : <input type="email" name="email">
+<br/>
+Password : <input type="password" name="password">
+<br/>
+<input type="submit" name="login">
+</form>
+
+</body>
 </html>

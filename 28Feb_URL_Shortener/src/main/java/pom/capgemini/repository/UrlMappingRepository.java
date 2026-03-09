@@ -14,7 +14,7 @@ public interface UrlMappingRepository extends JpaRepository<UrlMapping, Long> {
 
     Optional<UrlMapping> findByShortCode(String shortCode);
 
-    boolean existsByShortCode(String shortCode);
+    boolean existsByShortCode(Object shortCode);
 
     List<UrlMapping> findByCreatedAtAfter(LocalDateTime dateTime);
 
